@@ -1,3 +1,3 @@
 # MoviePrediction
 
-Iowa State University, COM S 592, Project.
+Iowa State University, COM S 561, Project.
