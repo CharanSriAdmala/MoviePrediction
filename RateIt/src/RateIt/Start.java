@@ -17,8 +17,13 @@ public class Start {
 				Processor.setRating(cast,rating);
 			}
 			
-			// Train the model
+			// Training
 			ArrayList<Integer> weights = new ArrayList<Integer>();
+			
+			
+			
+			
+			
 			
 			
 			
@@ -40,6 +45,9 @@ public class Start {
 			// Prediction algorithm
 			Map<String,Double> averageRating = Prediction.getAverageRating();
 			
+			/* some math calculation to calculate rating by 
+			 * adjusting the weights with influence factors
+			 */
 			
 		}
 
