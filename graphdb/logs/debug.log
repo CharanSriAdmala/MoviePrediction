@@ -805,3 +805,81 @@ RETURN 'procedures' as a, procedures as result
 2017-11-26 21:32:00.391+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Check pointing completed
 2017-11-26 21:32:00.399+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2017-11-26 21:32:00.407+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 21:40:07.174+0000 ERROR [o.n.k.i.u.w.DefaultFileDeletionEventListener] 'movie_dataset.csv' which belongs to the store was deleted while database was running.
+2017-11-26 21:47:00.950+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting check pointing...
+2017-11-26 21:47:00.950+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting store flush...
+2017-11-26 21:47:01.059+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 47 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 21:47:01.075+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 47 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 21:47:01.387+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Store flush completed
+2017-11-26 21:47:01.387+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting appending check point entry into the tx log...
+2017-11-26 21:47:01.434+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Appending check point entry into the tx log completed
+2017-11-26 21:47:01.434+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Check pointing completed
+2017-11-26 21:47:01.450+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 21:47:01.450+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 21:54:38.457+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN $existingNodeIds AND id(b) IN $newNodeIds RETURN r;
+2017-11-26 21:54:38.529+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN $existingNodeIds AND id(b) IN $newNodeIds RETURN r;
+2017-11-26 22:02:02.049+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Starting check pointing...
+2017-11-26 22:02:02.065+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Starting store flush...
+2017-11-26 22:02:02.065+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 50 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 22:02:02.080+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 50 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 22:02:02.424+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Store flush completed
+2017-11-26 22:02:02.424+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Starting appending check point entry into the tx log...
+2017-11-26 22:02:02.471+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Appending check point entry into the tx log completed
+2017-11-26 22:02:02.486+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [50]:  Check pointing completed
+2017-11-26 22:02:02.486+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 22:02:02.502+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 22:17:03.125+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting check pointing...
+2017-11-26 22:17:03.281+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting store flush...
+2017-11-26 22:17:03.281+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 51 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 22:17:03.328+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 51 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 22:17:03.734+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Store flush completed
+2017-11-26 22:17:03.750+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting appending check point entry into the tx log...
+2017-11-26 22:17:03.781+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Appending check point entry into the tx log completed
+2017-11-26 22:17:03.781+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Check pointing completed
+2017-11-26 22:17:03.797+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 22:17:03.797+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 22:33:21.334+0000 ERROR [o.n.k.i.u.w.DefaultFileDeletionEventListener] 'movie_cast1.csv' which belongs to the store was deleted while database was running.
+2017-11-26 22:33:21.587+0000 ERROR [o.n.k.i.u.w.DefaultFileDeletionEventListener] 'movie_cast2.csv' which belongs to the store was deleted while database was running.
+2017-11-26 22:33:21.595+0000 ERROR [o.n.k.i.u.w.DefaultFileDeletionEventListener] 'movie_cast3.csv' which belongs to the store was deleted while database was running.
+2017-11-26 22:33:21.606+0000 ERROR [o.n.k.i.u.w.DefaultFileDeletionEventListener] 'movie_cast4.csv' which belongs to the store was deleted while database was running.
+2017-11-26 22:34:54.523+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting check pointing...
+2017-11-26 22:34:54.531+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting store flush...
+2017-11-26 22:34:54.603+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 52 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 22:34:54.635+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 52 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 22:34:54.939+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Store flush completed
+2017-11-26 22:34:54.947+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting appending check point entry into the tx log...
+2017-11-26 22:34:55.003+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Appending check point entry into the tx log completed
+2017-11-26 22:34:55.011+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Check pointing completed
+2017-11-26 22:34:55.019+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 22:34:55.031+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 22:49:55.379+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Starting check pointing...
+2017-11-26 22:49:55.535+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Starting store flush...
+2017-11-26 22:49:55.598+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 68 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 22:49:55.629+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 68 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 22:49:56.582+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Store flush completed
+2017-11-26 22:49:56.589+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Starting appending check point entry into the tx log...
+2017-11-26 22:49:56.634+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Appending check point entry into the tx log completed
+2017-11-26 22:49:56.654+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [68]:  Check pointing completed
+2017-11-26 22:49:56.656+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 22:49:56.672+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 22:55:40.191+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 222ms.
+2017-11-26 23:04:57.016+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Starting check pointing...
+2017-11-26 23:04:57.157+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Starting store flush...
+2017-11-26 23:04:57.245+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 89 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 23:04:57.261+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 89 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a].
+2017-11-26 23:04:57.863+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Store flush completed
+2017-11-26 23:04:57.870+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Starting appending check point entry into the tx log...
+2017-11-26 23:04:57.898+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Appending check point entry into the tx log completed
+2017-11-26 23:04:57.905+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [89]:  Check pointing completed
+2017-11-26 23:04:57.912+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 23:04:57.919+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-11-26 23:19:58.418+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting check pointing...
+2017-11-26 23:19:58.418+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting store flush...
+2017-11-26 23:19:58.511+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 107 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 23:19:58.543+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 107 to [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.a], from [C:\Users\AMAL KUMAR BANERJEE\Documents\GitHub\MoviePrediction\graphdb\neostore.counts.db.b].
+2017-11-26 23:19:59.340+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Store flush completed
+2017-11-26 23:19:59.340+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting appending check point entry into the tx log...
+2017-11-26 23:19:59.386+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Appending check point entry into the tx log completed
+2017-11-26 23:19:59.386+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Check pointing completed
+2017-11-26 23:19:59.402+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-11-26 23:19:59.402+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
